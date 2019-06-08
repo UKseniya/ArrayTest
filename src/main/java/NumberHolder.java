@@ -13,16 +13,8 @@ public class NumberHolder {
         return number;
     }
 
-    public void setNumber(int number) {
-        this.number = number;
-    }
-
     public boolean isEven() {
         return even;
-    }
-
-    public void setEven(boolean even) {
-        this.even = even;
     }
 
     @Override

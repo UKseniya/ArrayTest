@@ -24,7 +24,7 @@ public class PrintToFile extends Output { // наследование
 
         File file = new File("C:\\Users\\Kseniya\\temp.doc");
 
-        FileWriter fileWriter = null;
+        FileWriter fileWriter;
         try {
             fileWriter = new FileWriter(file);
             PrintWriter printWriter = new PrintWriter(fileWriter);

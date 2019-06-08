@@ -8,7 +8,6 @@ import javax.xml.transform.*;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
 import java.io.File;
-import java.io.IOException;
 
 public class SaveToXML extends Output { // наследование
 
@@ -31,7 +30,7 @@ public class SaveToXML extends Output { // наследование
     }
 
     @Override
-    public void print(NumberHolder[] num) throws ExceededFileSizeException { // �����������
+    public void print(NumberHolder[] num) throws ExceededFileSizeException {
 
         try {
             doc = factory.newDocumentBuilder().newDocument();
